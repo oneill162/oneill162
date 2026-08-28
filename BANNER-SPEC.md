@@ -27,31 +27,36 @@ Dotted leaders computed from label/value length — never hand-edited.
 
 | Row | Value |
 |---|---|
-| Subject | Eduardo O. De Jesus Arroyo |
-| Role | Computer Systems Professor · Full-Stack Dev |
-| Origin | Canóvanas, Puerto Rico |
-| Education | M.S. Cybersecurity — Ana G. Méndez, 2022 |
-| Status | Higher Ed Professor · Systems & Programming |
-| ToolChain | VS Code · Git · Android Studio · M365 · AI-Assisted |
-| Core.Lang | JavaScript · Java · Kotlin · Python · PHP · C# · C++ · SQL |
-| Core.Frontend | HTML5 · CSS3 |
-| Core.Backend | Node.js · Express · PHP · Laravel · ASP.NET · Spring Boot |
-| Core.Database | MySQL · Supabase |
-| Core.Mobile | Android · Kotlin · MVVM · Retrofit · Coroutines · REST |
-| Core.Infra | Ubuntu Server · Linux · Windows · TCP/IP · DNS · DHCP |
-| Core.Security | Systems · Network · Security Fundamentals |
-| Grid.Mail | e.oneill162@outlook.com |
-| Grid.Portfolio | coming soon |
-| Grid.Instagram | @zafiro.tech |
-| Grid.GitHub | oneill162 |
+| `Subject` | Eduardo O. De Jesus Arroyo |
+| `Role` | Computer Systems Professor | Full-Stack Developer |
+| `Origin` | Canovanas, Puerto Rico |
+| `Edu.Grad` | M.S. Cybersecurity - Ana G. Mendez Univ. (2022) |
+| `Edu.Undergrad` | B.B.A. Computerized Information Systems - AGM (2015) |
+| `Edu.Cert` | K-3 Education Certification - Caribbean Univ. PR |
+| `Status` | Teaching systems, programming & IT - building in the open |
+| `ToolChain` | VS Code, Git, Android Studio, MS 365, AI-assisted dev |
+| `Core.Lang` | JavaScript, Java, Kotlin, Python, PHP, C#, C++, SQL |
+| `Core.Frontend` | HTML5, CSS3 |
+| `Core.Backend` | Node.js, Express, Laravel, ASP.NET, Spring Boot |
+| `Core.Database` | MySQL, Supabase |
+| `Core.Mobile` | Android, Kotlin, MVVM, Retrofit, Coroutines, REST |
+| `Core.Infra` | Ubuntu, Linux, Windows Server, TCP/IP, DNS/DHCP |
+| `Core.Security` | Systems, Network & Security Fundamentals |
+| `Grid.Mail` | e.oneill162@outlook.com |
+| `Grid.Portfolio` | Coming Soon |
+| `Grid.Instagram` | @zafiro.tech |
+| `Grid.GitHub` | oneill162 |
 
-17 rows × 23px = 391px of readout — fits the 610px canvas with room for the
-header, LIVE badge and handle pill.
+Handle pill: `@oneill162` on the accent green.
 
-**Deviation from the master prompt:** it specifies `Grid.LinkedIn` and
-`Grid.Facebook`. No LinkedIn or Facebook URL was supplied, so those rows are
-dropped and `Grid.Instagram` takes their place. Two extra `Core` rows (Mobile,
-Security) were added because the supplied stack does not fit the prompt's five.
+19 rows x 23px = 437px of readout. Values are transcribed verbatim from the
+approved render (`6-banner-both-modes.png`), which is the reference any rebuild
+must match.
+
+Education is split across three rows rather than the master prompt's single
+`Education` row, and `Grid.LinkedIn` / `Grid.Facebook` are dropped for lack of
+URLs. Accented characters are stripped (Canovanas, Mendez) to stay inside the
+monospace face used by the panel.
 
 ## Portrait pipeline
 
