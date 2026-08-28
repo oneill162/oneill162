@@ -16,32 +16,22 @@ README renders on your profile. Then, from this folder:
 Drop `dark.svg` and `light.svg` into `assets/`. The README already points at
 `main/assets/`. Nothing renders until these exist.
 
-## 3. GitHub token for the stats cards
+## 3. Stats cards - removed
 
-Settings → Developer settings → Personal access tokens → **Tokens (classic)** →
-Generate new token (classic) → scope **`repo`** → expiration **No expiration**.
+The GitHub-stats and top-languages cards were dropped from the README. They
+required self-hosting `github-readme-stats` on Vercel with a personal access
+token, and the public instance was returning `DEPLOYMENT_PAUSED`.
 
-Copy it immediately — GitHub shows it once. Never paste it into a README, an
-issue, a commit, or a chat window. It grants full access to your repositories.
+No token and no Vercel account are needed for anything that remains.
 
-## 4. Self-host the stats cards
+To add them back later: fork `anuraghazra/github-readme-stats`, import it to
+Vercel on the free Hobby plan, set an environment variable `PAT_1` to a classic
+token with `repo` scope, deploy, then add two `<img>` tags pointing at your
+instance with `hide_rank=true` and the palette in BANNER-SPEC.md.
 
-The public github-readme-stats instance is shared by thousands of profiles and
-returns "API rate limit exceeded" for most of the day. Self-hosting is the fix.
+The streak card that remains is not affected - it needs no token.
 
-1. Fork `anuraghazra/github-readme-stats`
-2. Go to vercel.com, sign up with GitHub, choose the **Hobby** (free) plan
-3. **Add New Project** → import your fork
-4. Add an environment variable `PAT_1` = the token from step 3
-5. **Deploy**, then copy your instance URL
-
-Then replace both `YOUR-INSTANCE.vercel.app` placeholders in `README.md`.
-
-The cards use `hide_rank=true`. The rank is stars-weighted, so a newer or
-teaching-focused account gets a low letter grade that reflects repo popularity
-rather than activity. Hiding it is more accurate, not more flattering.
-
-## 5. Enable Actions write permission
+## 4. Enable Actions write permission
 
 Repo **Settings** → **Actions** → **General** → Workflow permissions →
 **Read and write permissions** → Save.
@@ -49,7 +39,7 @@ Repo **Settings** → **Actions** → **General** → Workflow permissions →
 This is the *repository's* settings page, not your account settings. The snake
 workflow cannot push its output branch without it.
 
-## 6. Run the snake workflow
+## 5. Run the snake workflow
 
 Actions tab → **Generate contribution snake** → **Run workflow**.
 
@@ -58,7 +48,7 @@ successful run — before that, the snake `<picture>` block in the README points
 a branch that does not exist and will show broken images. That is expected.
 After it goes green, hard-refresh your profile.
 
-## 7. Missing inputs
+## 6. Missing inputs
 
 The banner spec drops `Grid.LinkedIn` and `Grid.Facebook` because no URLs were
 supplied. If you want them, send the URLs.
