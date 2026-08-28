@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=oneill162&background=0A101F&border=0891B2&stroke=0891B2&ring=A78BFA&fire=10B981&currStreakNum=22D3EE&currStreakLabel=A78BFA&sideNums=22D3EE&sideLabels=22D3EE&dates=64748B&excludeDaysLabel=64748B" width="100%" alt="Contribution streak">
+<img src="https://streak-stats.demolab.com?user=oneill162&background=0A101F&border=0891B2&stroke=0891B2&ring=A78BFA&fire=10B981&currStreakNum=22D3EE&currStreakLabel=A78BFA&sideNums=22D3EE&sideLabels=22D3EE&dates=64748B&excludeDaysLabel=64748B&v=2" width="100%" alt="Contribution streak">
 
 <img src="https://YOUR-INSTANCE.vercel.app/api?username=oneill162&show_icons=true&hide_rank=true&include_all_commits=true&title_color=A78BFA&icon_color=10B981&text_color=22D3EE&bg_color=0A101F&border_color=0891B2" width="49%" alt="GitHub stats">
 <img src="https://YOUR-INSTANCE.vercel.app/api/top-langs?username=oneill162&layout=compact&langs_count=8&title_color=A78BFA&text_color=22D3EE&bg_color=0A101F&border_color=0891B2" width="49%" alt="Top languages">
